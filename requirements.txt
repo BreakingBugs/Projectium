@@ -1,3 +1,4 @@
+# local server
 Django==1.7
 argparse==1.2.1
 django-bootstrap3==5.3.1
@@ -8,3 +9,10 @@ psycopg2==2.6
 six==1.9.0
 sqlparse==0.1.15
 wsgiref==0.1.2
+
+# heroku server
+SQLAlchemy==0.9.8
+dj-database-url==0.3.0
+django-postgrespool==0.3.0
+gunicorn==19.2.1
+whitenoise==1.0.6
